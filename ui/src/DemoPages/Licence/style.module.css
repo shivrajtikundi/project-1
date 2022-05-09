@@ -1,0 +1,338 @@
+.licenceHeader{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Copperplate;
+}
+.selectPlanHeader{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.planHelperHeader{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color:#898989
+}
+
+.planAttribute{
+    text-align: center;
+}
+
+.planHelperHeader a{
+    color: #C48C15!important;
+}
+
+.planContainer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.customLicenceCard{
+    border-radius: 10px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+.customLicenceCardFooter{
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+
+.customLicenceCardFooter button{
+    color: #C48C15;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.customLicenceCardFooter button:hover{
+    color: #C48C15;
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+}
+
+.customLicenceCardFooter button:focus{
+    color: #C48C15!important;
+    background: none!important;
+    outline: none!important;
+    border: none!important;
+}
+
+.customLicenceCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    cursor: pointer;
+}
+
+.activatedPlan{
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    float: left;
+    padding-left: 6px;
+    padding-top: 1px;
+    color: white;
+    background: black;
+}
+.listedPlan{
+    border: 1px solid #898989;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    float: left;
+    padding-left: 6px;
+    padding-top: 1px;
+    color: white;
+}
+.planHeader{
+    padding-left: 35px;
+    padding-top: 1px;
+}
+
+.priceHeader{
+    float: right;
+    font-size: 18px;
+    text-transform: none!important;
+}
+.discountText{
+    color:red;
+    font-weight: 500;
+    font-size: 12px;
+}
+.billingTypeName{
+    margin-bottom: 0px!important;
+}
+
+.planSelectionText{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #898989;
+}
+
+.continueBtnContainer{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #898989;
+    padding-left:55px;
+    padding-right:55px;
+}
+
+.subscriptionHeader{
+    padding-left: 15px;
+    padding-top: 1px;
+    float:left;
+    text-transform: none!important;
+    height: 25px;
+}
+
+.luomContainer{
+    color:#898989!important;
+}
+
+
+.planUserCount{
+    padding:20px;
+    border-radius: 5px;
+    background: #e1e1e1;
+    text-align: center;
+    font-weight: 600;
+}
+.planFeatureContainer{
+    padding-top:20px;
+}
+
+.toggleFeatureActive{
+    color: green;
+    font-weight: 900;
+    float: left;
+}
+
+.toggleFeatureDeactive{
+    color: red;
+    font-weight: 900;
+    float: left;
+}
+
+.featureDesc{
+    font-weight: 700;
+    margin-left: 16px;
+}
+.otherFeatureDesc{
+    margin-left: 16px;
+}
+
+
+.activeCard{
+    border: 2px solid black;
+}
+
+.customModalBody{
+    max-height:500px;
+    overflow-y: auto;
+}
+
+.activeItem{
+    color: green;
+    text-align: center;
+    font-weight: 600;
+}
+
+.inactiveItem{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+
+.customTableHeader{
+    text-align: center;
+}
+
+.featureHeader{
+    width: 170px;
+}
+
+.customModalHeader{
+    text-align: center;
+    display:block!important;
+}
+
+.trialingTag p{
+    font-size: 12px;
+    background: #000;
+    padding: 2px 70px 2px 40px;
+    color: #ffffff !important;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 26px;
+    right: -62px;
+    font-weight: 600;
+}
+
+.trialingTag {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    overflow: hidden;
+}
+
+.user_selection{
+    padding: 40px;
+}
+
+.customSelect{
+    border: 0px !important;
+    outline: 0px !important;
+}
+
+.userSelecttionContainer{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.continueBtn, .continueBtn:hover, .continueBtn:focus{
+    width: 100%;
+    border-radius: none!important;
+    background: #57D638!important;
+    color: white!important;
+    text-align: center!important;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+
+.confirmPaymentScreen{
+    font-size: 15px;
+}
+
+.plantext{
+    float: left;
+}
+.totaltext{
+    float: right;
+}
+.customPlanHeadingTotal{
+    padding: 15px;
+    border: 1px solid;
+}
+
+.InputRow{
+    padding-top: 10px; 
+}
+
+.InputRowSecond{
+    padding-top: 15px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #898989;
+}
+
+.seatCountText{
+    font-weight: 800;
+}
+.InputRowThird{
+    padding-top: 15px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #898989;
+    height: 75px;
+}
+.InputRowFourth{
+    padding-top: 15px; 
+    padding-bottom: 10px;
+    height: 75px;
+}
+
+.totalCostText{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+.customtotalText{
+    text-align: right;
+}
+.finalTotalCostText{
+    font-weight: 700;
+    font-size: 35px;
+}
+.currencyText{
+    font-weight: 700;
+    font-size: 16px!important;
+    padding-left: 5px;
+}
+.totalpaytodaytext{
+    line-height: 3.5;
+}
+
+.finalCostUnderLine{
+    border-bottom: 1px solid #898989;
+}
+
+.confirmPayBtn, .confirmPayBtn:hover, .confirmPayBtn:focus{
+    width:100%;
+    border: none!important;
+    outline: none!important;
+    background: #57D638!important;
+    color: white!important;
+}
+
+.confirmPayBtn:hover{
+    cursor:pointer;
+}
+
+.customCardfooter{
+    padding: 0px!important;
+}
+
+.termLink{
+    color: #C48C15;
+}

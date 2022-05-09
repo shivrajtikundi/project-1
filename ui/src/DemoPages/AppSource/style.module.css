@@ -1,0 +1,148 @@
+.pageHeader{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-rendering: optimizelegibility;
+}
+
+.customAppMain{
+    display: block!important;
+}
+
+.pageContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.customCardHeader{
+    text-transform: none!important;
+}
+
+.searchBtn, .searchBtn:hover, .searchBtn:focus{
+    background: black!important;
+    color: white!important;
+    outline: none!important;
+    border: none!important;
+    height: 100%;
+    width: 100%;
+}
+
+.searchBox{
+    height: 100%;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    background: rgb(229, 229, 229);
+}
+
+.searchBox:focus{
+    border: #007bff!important;;
+}
+
+.footerLink{
+    color: #C48C15
+}
+
+.manageSourcesHeader{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.manageSourcesSubHeader{
+    font-size: 14px;
+}
+
+.headerButtons{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.headerButtons button{
+    margin-left: auto; 
+    margin-right: 0;
+    border-radius: 10px;
+    background-color: #FFF !important;
+    border: 2px solid #ececec !important;
+    color: #323232 !important;
+}
+
+.customCardHeaderSecondary{
+    margin-top: 20px;
+}
+
+.customCardText{
+    text-align: center;
+}
+
+.inviteTeamButton{
+    margin-top: 25px;
+}
+
+.inviteTeamButton button{
+    border-radius: 10px;
+    background-color: #FFF !important;
+    border: 2px solid #ececec !important;
+    color: #323232 !important;
+}
+
+.applist{
+    margin-top: 20px;
+}
+
+.appListHeader{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid rgb(73, 187, 252);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.appListBody{
+    padding:0px !important;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.appName{
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0px !important;
+}
+
+.appPublisherName{
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: #5b5e63;
+}
+
+.addSourceFromTableBtn{
+    border-radius: 20px;
+    background-color: #FFF !important;
+    border: 2px solid #dbd7d7 !important;
+    color: #323232 !important;
+}
+.iIcon{
+    margin-top: -5px;
+}
+
+.appTableImgHolder{
+    width: 15%;
+    padding: 20px!important;
+}
+.appInfoHolder{
+    width:55%;
+    padding-top: 23px!important;
+}
+.appTableActionBtnHolder{
+    width:30%;
+}
+.appListHeaderForGoogle{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid rgb(14, 205, 108);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+}

@@ -1,0 +1,40 @@
+.headerDotButton{
+    color:white;
+    background-image: linear-gradient(to right, #8759F5 35%, #b573f5 100%) !important;
+    border-radius: 25px;
+    border:none;
+    outline: none;
+}
+.validityText{
+    font-weight: 700;
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.customLink:hover{
+    text-decoration: none;
+    font-weight: 700!important;
+    color:#495057;
+}
+.customLink:focus{
+    text-decoration: none;
+    font-weight: 700!important;
+    color:#495057;
+}
+.customLink{
+    color:#495057;
+    font-weight: 700!important;
+    text-decoration: none;
+}
+.customSubMenu{
+    color:#495057;
+}
+.logoutLink:hover{
+    background-color: red;
+    color:white!important;
+}
+
+.customProfileLink,.customProfileLink:hover, .customProfileLink:focus{
+    color:#495057;
+    text-decoration: none;
+}

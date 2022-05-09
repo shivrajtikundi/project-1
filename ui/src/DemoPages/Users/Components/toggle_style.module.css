@@ -1,0 +1,33 @@
+
+.ToggleSwitch{
+  background: linear-gradient(#ccc, #eee);
+  border: 1px solid rgb(9, 9, 9);
+  height: 1em;
+  width: 2em;
+  border-radius: 1em;
+  float:left;
+  margin-top: 12px;
+}
+  
+.knob{
+  position: relative;
+  width: 1em;
+  height: 0.85em;
+  background: #666;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  left: 0em;
+  transition: left 0.3s ease-out;
+ 
+}
+.knobActive{
+  position: relative;
+  width: 1em;
+  height: 0.85em;
+  background: #666;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  left: 0em;
+  transition: left 0.3s ease-out;
+  left: 0.8em;
+}
